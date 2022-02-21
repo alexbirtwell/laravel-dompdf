@@ -20,6 +20,12 @@
         "phpro/grumphp": "^1",
         "nunomaduro/larastan": "^1|^2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alexbirtwell/dompdf"
+        },
+    ],
     "autoload": {
         "psr-4": {
             "Barryvdh\\DomPDF\\": "src"
